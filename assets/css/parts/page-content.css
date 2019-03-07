@@ -1,15 +1,158 @@
 .page-content {
-
+  margin-top: 15vh;
 }
 
-.container {
-
+.content {
+  width: 84vw;
+  margin: auto;
+  height: auto;
+  padding: 3vh;
 }
 
 h1 {
+  font-family: 'refreshregular';
+  font-size: 7vh;
   text-align: center;
+  margin: 5vh;
+}
+span {
+  font-family: 'subaccuzregular';
+}
+h2 {
+  font-family: 'subaccuzregular';
+  font-size: 7vh;
+}
+
+h3 {
+  font-family: 'refreshregular';
+  font-size: 7vh;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.text {
+  flex: 2;
+  padding: 2vh;
 }
 
 .picture {
-  background-color: pink;
+  flex: 1;
+  margin: 3vh;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container-1 {
+}
+
+.container-2 {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+}
+
+
+details {
+  width: 75%;
+  min-height: 5px;
+  max-width: 700px;
+  padding: 3vh 3vw;
+  position: relative;
+  font-size: 22px;
+  transition: all .3s;
+  background-color: blue;
+}
+
+details + details {
+  margin-top: 20px;
+}
+
+details[open] {
+
+}
+
+details p {
+  margin-top: 1vh;
+  color: #96999d;
+  font-weight: 300;
+  font-size: 10px;
+}
+
+summary {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+summary:focus {
+  outline: none;
+}
+
+summary::-webkit-details-marker {
+  display: none
+}
+
+summary::after {
+  margin: 20px;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-ligatures: normal;
+  font-weight: 900;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  content: "\f078";
+  background-image: url('../../images/fleche.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateY(-50%);
+  transition: .3s ease;
+}
+
+details[open] summary::after {
+  font-size: 30px;
+  top: 1vh;
+  left: -1vw;
+  transform: translateY(0);
+  transition: .3s ease;
+}
+
+details[open] summary:hover::after {
+  animation: pulse 1s ease;
+}
+
+@keyframes pulse {
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+.container-3 {
+  align-items: center;
+  height: 80vh;
+  width: 100vw;
+  background-image: url('../../images/background-image.jpg');
+  background-position: center;
+  background-color: cover;
+}
+.section-content {
+  padding: 10%;
+}
+
+.valais {
+  color: red;
+  font-family: 'subaccuzregular';
 }

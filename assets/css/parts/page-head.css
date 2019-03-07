@@ -1,21 +1,24 @@
 
 .page-head {
-  background-color: yellow;
   display: flex;
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
 }
-.container {
+
+.container-header {
   width: 100%;
-  align-items: center;
   display: flex;
   justify-content: space-between;
 }
-.container-menu {
+
+.container-menu, .container-icons {
   display: flex;
   align-items: center;
 }
 
-.logo, .container-icons {
+.logo {
   padding: 2vh;
   width: auto;
 }
@@ -23,14 +26,14 @@
   padding-right: 2vh;
 }
 
-ul {
+.page-head ul {
   display: flex;
 }
-li {
+.page-head li {
   margin: 3vw 3vh;
 }
 
-a {
+.page-head a {
   color: black;
   font-family: 'refreshregular';
   letter-spacing: 0.3vh;

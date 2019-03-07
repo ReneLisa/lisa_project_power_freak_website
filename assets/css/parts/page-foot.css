@@ -1,0 +1,46 @@
+.page-foot {
+  padding: 5vw 5vh;
+}
+
+.content-foot {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.infos {
+  margin: 0 7vw;
+}
+
+.title {
+	border-bottom: 2px solid #9d4fc1;
+	padding-bottom: 1vh;
+  color: #9d4fc1;
+  font-size: 3vh;
+  font-family: 'subaccuzregular';
+}
+a {
+	color: #000;
+}
+
+.copyright {
+  margin-top: 2vh;
+  margin-bottom: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vh;
+  letter-spacing: 0.4vh;
+}
+.infos-copyright {
+  display: flex;
+}
+
+.infos-copyright li {
+  margin-right: 2vw;
+  padding-right: 2vw;
+  border-right: 1px solid;
+}
+.infos-copyright li:last-child {
+  border: none;
+}
