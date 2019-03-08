@@ -19,8 +19,8 @@
     <div class="container-icons">
         <a href="#" class="langues" >FR <img src="images/fleche-langues.png" width="auto" height="10vh" /></a>
 
-        <img src="images/facebook.png" class="icon" alt="Facebook"  width="auto" height="30vh" />
-        <img src="images/instagram.png" class="icon" alt="Instagram"  width="auto" height="30vh" />
+        <a href="#"><img src="images/facebook.png" class="icon" alt="Facebook"  width="auto" height="30vh" /></a>
+        <a href="#"><img src="images/instagram.png" class="icon" alt="Instagram"  width="auto" height="30vh" /></a>
     </div>
     <!-- /container-icons -->
   </div>
