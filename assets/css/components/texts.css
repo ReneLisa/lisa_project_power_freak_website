@@ -1,0 +1,44 @@
+.text {
+  flex: 2;
+  padding: 2vh;
+}
+
+h1 {
+  font-family: 'refreshregular';
+  font-size: 7vh;
+  text-align: center;
+  margin: 5vh;
+}
+span {
+  font-family: 'subaccuzregular';
+}
+h2 {
+  font-family: 'subaccuzregular';
+  font-size: 7vh;
+}
+
+h3 {
+  font-family: 'refreshregular';
+  font-size: 7vh;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+
+
+.sous-titre {
+  font-family: 'refreshregular';
+  font-size: 5vh;
+}
+
+.text p {
+  margin-top: 2vh;
+}
+
+.intro {
+  text-align: center;
+  font-family: 'refreshregular';
+  letter-spacing: 0.3vh;
+  font-size: 5vh;
+  margin-bottom: 1vh;
+}

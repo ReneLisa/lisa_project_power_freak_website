@@ -4,7 +4,7 @@
 @import "structure.css";
 
 /* components */
-/* @import "components/texts.css"; */
+@import "components/texts.css";
 
 /* parts */
 @import "parts/page-head.css";

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="fr">
     <head>
-        <?php include 'partials/head.php'; ?>
+        <?php include 'partials/meta.php'; ?>
         <title>Titre</title>
         <meta name="description" content="Description de la page" />
     </head>
@@ -9,37 +9,7 @@
     <body>
       <div class="wrapper">
 
-        <header class="page-head">
-          <div class="container-header">
-
-            <div class="container-menu">
-              <div class="logo">
-                <img src="images/logo.png" alt="Logo Power Freak" width="auto" height="40vh"/>
-              </div>
-
-              <nav class="menu">
-                <ul>
-                  <li><a class="nav-link active" href="./index.php">Le Recyclage</a></li>
-                  <li><a class="nav-link" href="./deuxdex.php">A propos</a></li>
-                  <li><a class="nav-link" href="./deuxdex.php">Contactez-nous</a></li>
-                </ul>
-              </nav>
-            </div>
-            <!-- /container-menu -->
-
-            <div class="container-icons">
-                <a href="#">FR <img src="" width="auto" height="30vh" /></a>
-
-                <img src="images/facebook.png" class="icon" alt="Facebook"  width="auto" height="30vh" />
-                <img src="images/instagram.png" class="icon" alt="Instagram"  width="auto" height="30vh" />
-            </div>
-            <!-- /container-icons -->
-          </div>
-          <!-- /container-header -->
-        </header>
-        <!-- /page-head -->
-
-
+        <?php include("partials/page-head.php"); ?>
 
         <main class="page-content">
 
@@ -54,8 +24,9 @@
 
           <div class="content container-2">
 
+            <div class="picture">
               <img src="images/gout-power-freak.png" alt="" width="auto" height="auto">
-
+            </div>
 
             <div class="text">
               <h2>2 saveurs </br> 100% naturelle</h2>
@@ -88,54 +59,11 @@
         </main>
         <!-- /page-content -->
 
-        <footer class="page-foot">
-          <div class="content-foot">
-
-  							<ul class="infos">
-  								<li class="title">POWER FREAK</li>
-  								</br>
-  								<li><a href="#">Le recyclage, une priorité</a></li>
-                  </br>
-                  <li><a href="#">Histoire</a></li>
-                  </br>
-                  <li><a href="#">Shop</a></li>
-  							</ul>
-
-  							<ul class="infos">
-  								<li class="title">CONTACT</li>
-  								</br>
-  								<li><a href="#">HES-SO RECTORAT</br>ROUTE DE MOUTIE 14</br>2800 - DELEMONT </a></li>
-                  </br>
-                  <li><a href="#">Facebook</a></li>
-                  </br>
-                  <li><a href="#">Instagram</a></li>
-  							</ul>
-
-  						</div>
-
-          </div>
-
-          <div class="copyright">
-            <ul class="infos-copyright">
-              <li>© Copyright</li>
-              <li>Mentions légales</li>
-              <li>Tout droits réservés</li>
-            </ul>
-          </div>
-          <!-- /copyright -->
-
-        </footer>
-        <!-- /page-foot -->
+        <?php include("partials/page-foot.php"); ?>
 
       </div>
       <!-- FIN DU WRAPPER -->
 
-
-      <script>
-          $( function() {
-            $( "#accordion" ).accordion();
-          } );
-      </script>
 
     </body>
 

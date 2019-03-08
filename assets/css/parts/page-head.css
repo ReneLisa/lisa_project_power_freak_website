@@ -1,5 +1,6 @@
 
 .page-head {
+  background-color: rgba(255, 255, 255, 0.7);
   display: flex;
   position: fixed;
   top: 0;
@@ -22,6 +23,10 @@
   padding: 2vh;
   width: auto;
 }
+.langues {
+  margin-right: 2vh !important;
+}
+
 .icon {
   padding-right: 2vh;
 }

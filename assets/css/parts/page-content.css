@@ -9,31 +9,6 @@
   padding: 3vh;
 }
 
-h1 {
-  font-family: 'refreshregular';
-  font-size: 7vh;
-  text-align: center;
-  margin: 5vh;
-}
-span {
-  font-family: 'subaccuzregular';
-}
-h2 {
-  font-family: 'subaccuzregular';
-  font-size: 7vh;
-}
-
-h3 {
-  font-family: 'refreshregular';
-  font-size: 7vh;
-  text-align: center;
-  margin-bottom: 5vh;
-}
-
-.text {
-  flex: 2;
-  padding: 2vh;
-}
 
 .picture {
   flex: 1;
@@ -50,9 +25,61 @@ h3 {
 .container-2 {
   display: flex;
   align-items: center;
-  width: 100vw;
+  width: 100%;
 }
 
+
+
+.container-3 {
+  align-items: center;
+  height: 80vh;
+  width: 100vw;
+  background-image: url('../../images/background-image.jpg');
+  background-position: top;
+  background-color: cover;
+}
+
+.framboise {
+  align-items: center;
+  height: 50vh;
+  width: 100vw;
+  background-image: url('../../images/background-image.jpg');
+  background-position: center;
+  background-color: cover;
+}
+
+.section-content {
+  padding: 10%;
+}
+
+.valais {
+  color: red;
+  font-family: 'subaccuzregular';
+}
+
+.container-4 {
+
+}
+
+
+/* --------------------- Bouton normal */
+.block-share {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.share {
+  color: white;
+  font-size: 3vh;
+  letter-spacing: 0.5vh;
+  font-family: 'subaccuzregular';
+  margin-bottom: 10vh;
+  padding: 1vh;
+  background-color: rgba(157,79,193,1);
+}
+
+/* --------------------- Bouton déroulant */
 
 details {
   width: 75%;
@@ -60,9 +87,9 @@ details {
   max-width: 700px;
   padding: 3vh 3vw;
   position: relative;
-  font-size: 22px;
+  font-size: 2vh;
   transition: all .3s;
-  background-color: blue;
+  background-color: rgba(157, 79, 193, 0.7);
 }
 
 details + details {
@@ -75,7 +102,6 @@ details[open] {
 
 details p {
   margin-top: 1vh;
-  color: #96999d;
   font-weight: 300;
   font-size: 10px;
 }
@@ -97,7 +123,7 @@ summary::after {
   margin: 20px;
   position: absolute;
   top: 20%;
-  left: 0;
+  right: 0;
   font-style: normal;
   font-variant-caps: normal;
   font-variant-ligatures: normal;
@@ -114,8 +140,8 @@ summary::after {
 
 details[open] summary::after {
   font-size: 30px;
-  top: 1vh;
-  left: -1vw;
+  top: 0vh;
+  right: 0vw;
   transform: translateY(0);
   transition: .3s ease;
 }
@@ -137,22 +163,4 @@ details[open] summary:hover::after {
   100% {
     transform: scale(1);
   }
-}
-
-
-.container-3 {
-  align-items: center;
-  height: 80vh;
-  width: 100vw;
-  background-image: url('../../images/background-image.jpg');
-  background-position: center;
-  background-color: cover;
-}
-.section-content {
-  padding: 10%;
-}
-
-.valais {
-  color: red;
-  font-family: 'subaccuzregular';
 }
