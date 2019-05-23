@@ -5,7 +5,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
 }
 
 .container-header {
@@ -17,6 +17,10 @@
 .container-menu, .container-icons {
   display: flex;
   align-items: center;
+}
+
+.container-icons {
+  margin-right: 2vh;
 }
 
 .logo {
@@ -42,4 +46,49 @@
   color: black;
   font-family: 'refreshregular';
   letter-spacing: 0.3vh;
+}
+
+.label-display-menu {
+  display: none;
+}
+input#display-menu {
+  display: none;
+}
+
+/*  MENU BURGER  */
+
+@media only screen and (max-width: 767px) {
+
+  .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #000000;
+    margin: 4px;
+    transition: all 0.2s;
+  }
+
+  .label-display-menu {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+  input#display-menu:checked ~ .menu {
+    display: block;
+  }
+  input#display-menu:checked  ~ label .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  input#display-menu:checked  ~ label .middle-bar {
+    opacity: 0;
+  }
+  input#display-menu:checked  ~ label .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  .container-icons {
+    display: none;
+  }
 }

@@ -75,7 +75,7 @@
 
               <div class="text">
 
-                  <details open>
+                  <details>
                     <summary>La canette, une "réserve d'énergie"</summary>
                     <p>Toutes les canettes sont recyclables à 100 % : une fois collectées et parvenues aux sites de recyclage, pas le moindre gramme d'aluminium ne se perd.  On peut la faire fondre et la réutiliser à l'infini sans aucune perte de qualité. Le recyclage de l'aluminium récupéré permet d'économiser 95 % d'énergie par rapport à l'utilisation d'aluminium issu des réserves naturelles.
                       </br>
@@ -83,7 +83,7 @@
                     </p>
                   </details>
 
-                  <details open>
+                  <details>
                     <summary>Chaque canette compte</summary>
                     <p>Les canettes sont les emballages de boisson les plus recyclés au monde. Bien évidemment, ceci n'est possible que si les canettes sont récupérées et (ré)introduites dans la boucle de recyclage.
                        </br>
@@ -127,12 +127,12 @@
 
               <div class="text">
 
-                  <details open>
+                  <details>
                     <summary>Que cela représente-t-il en termes de chiffres ?</summary>
                     <p>La production en « wall to wall » permet d'économiser plus de 1 643 tonnes d'émissions de CO2 par an.</p>
                   </details>
 
-                  <details open>
+                  <details>
                     <summary>Une plateforme de production desservant la planète</summary>
                     <p>La production de Power Freak basée en Suisse offre de nombreux avantages :</br>
                        Notre processus de fabrication de pointe ainsi que la qualité des ingrédients que nous employons, comme l'eau des Alpes d'origine locale, nous permet de garantir aux consommateurs une qualité optimale des produits.
@@ -144,7 +144,6 @@
              </div>
 
              <div class="picture">
-               Chiffre clés
                <img src="images/citation-1.png" alt="" width="auto" height="auto">
              </div>
 
@@ -167,7 +166,6 @@
             </div>
 
             <div class="picture">
-              Chiffre clés
               <img src="images/illustration-recyclage-1.png" alt="" width="auto" height="auto">
             </div>
 
@@ -177,18 +175,17 @@
           <div class="content container-2">
 
               <div class="picture">
-                Chiffre clés
                 <img src="images/citation-1.png" alt="" width="auto" height="auto">
               </div>
 
               <div class="text">
 
-                  <details open>
+                  <details>
                     <summary>Que cela représente-t-il en termes de chiffres ?</summary>
                     <p>La production en « wall to wall » permet d'économiser plus de 1 643 tonnes d'émissions de CO2 par an.</p>
                   </details>
 
-                  <details open>
+                  <details>
                     <summary>Une plateforme de production desservant la planète</summary>
                     <p>La production de Power Freak basée en Suisse offre de nombreux avantages :</br>
                        Notre processus de fabrication de pointe ainsi que la qualité des ingrédients que nous employons, comme l'eau des Alpes d'origine locale, nous permet de garantir aux consommateurs une qualité optimale des produits.

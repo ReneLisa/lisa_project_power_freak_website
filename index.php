@@ -16,7 +16,7 @@
           <div class="content container-1">
               <h1>Un an apres sa sortie, </br> <span>POWER FREAK</span> se fait un nouveau <span>ECO-LOOK !</span></h1>
               <div class="picture">
-                <img src="images/vs-power-freak.png" alt="" width="auto" height="auto">
+                <img src="images/vs-power-freak.png" alt="">
               </div>
           </div>
           <!-- /container-1 -->
@@ -25,13 +25,13 @@
           <div class="content container-2">
 
             <div class="picture">
-              <img src="images/gout-power-freak.png" alt="" width="auto" height="auto">
+              <img src="images/gout-power-freak.png" alt="" >
             </div>
 
             <div class="text">
               <h2>2 saveurs </br> 100% naturelle</h2>
 
-              <details open>
+              <details>
                 <summary>En savoir plus</summary>
                 <p>35% de jus de fruits, caféine d’origine naturelle, absence de taurine, de colorants, de conservateurs, d’acidifiants et de vitamines artificielles. </p>
               </details>
