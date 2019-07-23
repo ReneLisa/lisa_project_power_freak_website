@@ -18,10 +18,6 @@
   display: flex;
   justify-content: center;
 }
-.picture img {
-  width: 100%;
-  height: 100%;
-}
 
 .container-1 {
 }
@@ -33,7 +29,6 @@
 }
 
 
-
 .container-3 {
   align-items: center;
   height: 80vh;
@@ -42,6 +37,7 @@
   background-position: top;
   background-color: cover;
 }
+
 
 .framboise {
   align-items: center;
@@ -54,6 +50,11 @@
 
 .section-content {
   padding: 10%;
+}
+
+.picture-valais {
+  display: flex;
+  justify-content: center;
 }
 
 .valais {
@@ -86,7 +87,7 @@
 /* --------------------- Bouton déroulant */
 
 details {
-  width: 75%;
+  width: 100%;
   margin: 3vw 0;
   min-height: 5px;
   max-width: 700px;
@@ -101,8 +102,6 @@ details + details {
   margin-top: 20px;
 }
 
-
-
 details p {
   margin-top: 1vh;
   font-weight: 300;
@@ -110,6 +109,7 @@ details p {
 }
 
 summary {
+  color: white;
   font-weight: 500;
   cursor: pointer;
 }
@@ -142,9 +142,9 @@ summary::after {
 }
 
 details[open] summary::after {
-  font-size: 30px;
-  top: 0vh;
-  right: 0vw;
+  font-size: 20px;
+  top: 20%;
+  right: 0;
   transform: translateY(0);
   transition: .3s ease;
 }
@@ -175,27 +175,16 @@ details[open] summary:hover::after {
   .page-content {
     margin-top: 10vh;
   }
-
   .content {
     width: 100vw;
     margin: auto;
     height: auto;
     padding: 3vh;
   }
-
-  h1 {
-    font-size: 5vh;
-    text-align: center;
-    margin: 0;
-  }
-
   .container-2 {
     display: block;
     align-items: center;
     width: auto;
-  }
-  h2 {
-    font-size: 5vh;
   }
   .picture {
     margin: 3vh 0;

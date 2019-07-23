@@ -37,10 +37,27 @@ a {
 }
 
 .infos-copyright li {
-  margin-right: 2vw;
-  padding-right: 2vw;
+  padding: 0 2vw;
+  font-size: 0.9vh;
   border-right: 1px solid;
 }
 .infos-copyright li:last-child {
   border: none;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+  .content-foot {
+    display: block;
+    justify-content: center;
+  }
+  .infos {
+    margin: 5vh 0;
+  }
+  .infos-copyright {
+    font-size: 1vh;
+    justify-content: center;
+  }
 }

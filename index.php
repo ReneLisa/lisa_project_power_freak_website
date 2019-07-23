@@ -16,7 +16,7 @@
           <div class="content container-1">
               <h1>Un an apres sa sortie, </br> <span>POWER FREAK</span> se fait un nouveau <span>ECO-LOOK !</span></h1>
               <div class="picture">
-                <img src="images/vs-power-freak.png" alt="">
+                <img src="images/vs-power-freak.png" alt="" width="100%" height="100%">
               </div>
           </div>
           <!-- /container-1 -->
@@ -24,15 +24,15 @@
 
           <div class="content container-2">
 
-            <div class="picture">
-              <img src="images/gout-power-freak.png" alt="" >
+            <div class="picture picture-gout">
+              <img src="images/gout-power-freak.png" alt="" width="100%" height="100%">
             </div>
 
             <div class="text">
               <h2>2 saveurs </br> 100% naturelle</h2>
 
               <details>
-                <summary>En savoir plus</summary>
+                <summary><strong>En savoir plus</strong></summary>
                 <p>35% de jus de fruits, caféine d’origine naturelle, absence de taurine, de colorants, de conservateurs, d’acidifiants et de vitamines artificielles. </p>
               </details>
 
@@ -49,7 +49,7 @@
                 <h3>Une boisson energisante, <span class="valais">MADE IN VALAIS</span></h3>
 
 
-              <div class="picture">
+              <div class="picture picture-valais">
                 <img src="images/logo-valais.jpg" alt="" width="auto" height="150vh">
               </div>
 

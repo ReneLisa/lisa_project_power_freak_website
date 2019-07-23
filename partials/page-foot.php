@@ -27,7 +27,7 @@
 
   <div class="copyright">
     <ul class="infos-copyright">
-      <li>© Copyright</li>
+      <li>© Copyright Lisa RENE</li>
       <li>Mentions légales</li>
       <li>Tout droits réservés</li>
     </ul>

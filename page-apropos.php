@@ -15,9 +15,10 @@
 
           <div class="content container-1">
               <h1><span>POWER FREAK</span></h1>
-              <div class="text">
-                <p>C’est le nom de notre nouvelle boisson énergisante 100% naturelle développée en collaboration avec la HES-SO Valais.
-                </br>Cette nouvelle boisson « made in Valais » a été accompagnée par des étudiants en technologie alimentaire
+              <div class="text text-intro">
+                <p>C’est le nom de notre nouvelle boisson énergisante <strong>100% naturelle</strong> développée en collaboration avec la <strong>HES-SO Valais</strong>.
+                </br>
+                </br>Cette nouvelle boisson <strong>« made in Valais »</strong> a été accompagnée par des étudiants en technologie alimentaire
                   pour la partie développement de produit et en économie d’entreprise pour la partie marketing et communication.
                 </br>
                 </br>Elle se distingue de ses concurrentes par sa composition :
