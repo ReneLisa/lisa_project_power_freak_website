@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <?php include 'partials/meta.php'; ?>
-        <title>Titre</title>
+        <title>Power Freak</title>
         <meta name="description" content="Description de la page" />
     </head>
 
